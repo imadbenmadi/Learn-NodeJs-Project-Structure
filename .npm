@@ -1,0 +1,1 @@
+npm install express express-session dotenv mysql2 sequelize redis bcryptjs jsonwebtoken ejs body-parser express-validator multer winston morgan joi cron node-cron
