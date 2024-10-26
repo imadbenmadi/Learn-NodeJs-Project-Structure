@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const { jwtSecret } = require("../config/app.keys");
+const { jwtSecret } = require("../config.keys");
 const userRepository = require("../repositories/UserRepository");
 
 exports.register = async (userData) => {

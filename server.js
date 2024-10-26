@@ -4,14 +4,14 @@ const app = express();
 const dotenv = require("dotenv");
 const initConfig = require("./config/init");
 const initDatabase = require("./database/init");
-const AppRoutes = require("./routes/App.routes");
+const AppRoutes = require("./routes.routes");
 
 // Register routes
 
 const path = require("path");
-const initializeMiddleware = require("./app/middleware/init");
-const appRoutes = require("./app/routes/App.routes");
-const { initializeDirectories } = require("./app/helpers/Directory.helper");
+const initializeMiddleware = require("./middleware/init");
+const appRoutes = require("./routes.routes");
+const { initializeDirectories } = require("./helpers/Directory.helper");
 
 dotenv.config();
 

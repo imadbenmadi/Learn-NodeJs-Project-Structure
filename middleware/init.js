@@ -1,9 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-const { corsOptions } = require("../config/app.conf");
+const { corsOptions } = require("../config.conf");
 const credentials = require("./credentials.middleware");
-const requestLogger = require("./App.middleware");
+const requestLogger = require("..middleware");
 const errorHandler = require("./ErrorHandler.middleware");
 const authMiddleware = require("./Auth.middleware");
 
